@@ -1,0 +1,83 @@
+.editor input{
+	
+	border: 5px solid #2f2f152b;
+    margin-right: 20px;
+    display: inline-block;
+    height: 30px;
+    width: 205px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px
+}
+
+.editor{
+	float: left;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.editor .editEmail{
+	width: 449px;
+}
+
+.editor .editDescription{
+	border: 5px solid #2f2f152b;
+    margin-right: 20px;
+    display: inline-block;
+    height: 100px;
+    max-height:  150px;
+    min-width: 449px;
+    min-height: 30px;
+    width: 449px;
+    max-width: 449px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px
+}
+
+.editor .cancel{
+	    margin-top: 0;
+	margin-left: 3px;
+	font-size: 20px;
+	height: 35px;
+    width: 100px;
+    background: #ff2400;
+    border: 0pc;
+    color: white;
+    outline: none;
+  cursor: pointer;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out
+    
+}
+
+.editor .cancel:hover{
+	width: 150px
+}
+.editor .edit{
+	margin-top: 0;
+	float: right;
+	margin-right: 85px;
+	font-size: 20px;
+	height: 35px;
+    width: 100px;
+    max-width: 150px;
+    background: #aee4b2;
+    border: 0pc;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out
+    
+}
+
+.editor .edit:hover{
+	width: 150px
+}

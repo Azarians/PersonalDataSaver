@@ -1,0 +1,138 @@
+#form{
+	margin: 30px;
+
+
+}
+
+input[type=text]{
+    margin-right: 5px;
+	width: 25%;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	-webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    border-bottom: 4px solid #b79595;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out
+
+}
+
+input[type=text]:focus{
+    width: 28%;
+    background-color: #b79595;
+}
+
+input[type=Email]:focus,.description:focus{
+    width: 57.5%;
+    background-color: #b79595;
+}
+
+input[type=Email],.description{
+    min-width: 25%;
+	width: 54.5%;
+    max-width: 57.5%;
+	max-height: 150px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	-webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    border-bottom: 4px solid #b79595;
+
+    font-family: Tahoma;
+    margin:5px;
+    margin-left: 0
+
+}
+
+.birthday{
+	margin:5px;
+	margin-left: 0px;
+
+}
+
+.month,.year,.day{
+    
+	height: 35px;
+	    width: 20.2%;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #b79595;
+	border-radius: 10px;
+	margin-right: 5px
+
+}
+
+.day{
+	height: 35px;
+	    width: 16%;
+}
+
+.day:focus,.month:focus,.year:focus{
+	background-color: #b79595;
+	outline: none;
+}
+
+.Female,.Male,.Custom{
+	margin:7px;
+	margin-left:24px;
+}
+label.gender{
+	font-family: cursive;
+}
+
+input[type=reset], .add {
+    background-color: #b79595;
+    border: none;
+    color: white;
+    padding: 12px 31px;
+    text-decoration: none;
+    margin: 17px 18px;
+    cursor: pointer;
+    border-radius: 50px;
+	transition:  0.3s
+
+
+}
+
+input[type=reset]:hover, .add:hover{
+	background-color:#947878;
+
+}
+
+ input[type='radio']:after {
+     margin-right: 5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+
+    .form{
+        margin: 30px;
+    }

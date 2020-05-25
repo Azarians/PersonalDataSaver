@@ -1,0 +1,41 @@
+.namesTable{
+
+	height: 195px;
+	max-width: 100%;
+	border-radius: 15px;
+
+	border-bottom-right-radius: 0;
+	background-color: #F03929;
+	overflow: auto;
+
+
+}
+
+.namesTable h1{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  color: #323232;
+   margin-left: 10px
+}
+
+
+
+.clear{
+	outline: none;
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	background-color: #ffb5b5;
+	border:0px;
+	float: right;
+	font-family: cursive;
+	color: white;
+	font-size: 18px;
+	transition: 0.3s
+}
+
+.clear:hover{
+	background-color: #cff2ff;
+
+}

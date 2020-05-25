@@ -1,0 +1,16 @@
+
+.person{
+	height: 40px;
+	min-width: 100px;
+	width:  auto;
+	margin:5px;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 15px;
+	background-color:#d9d9d9;
+	color: #555555;
+	font-family: cursive;
+	cursor: pointer;
+}
