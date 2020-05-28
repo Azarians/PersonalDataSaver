@@ -258,7 +258,7 @@ const reRender = (state) =>{
 
 ReactDOM.render(
   <React.StrictMode>
-    <App state={state}/>
+    <App state={state} reRender={reRender}/>
     
   </React.StrictMode>,
   document.getElementById('root')
