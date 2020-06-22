@@ -4,15 +4,13 @@ import PersonsTable from "./PersonsTable/PersonsTable.jsx";
 import PersonsForm from "./PersonsForm/PersonsForm.jsx";
 
 const AddInformation = (props) =>{
-  
+
   return(
     <div className={s.addPage} >
       <PersonsTable />
       <PersonsForm addPerson={props.addPerson} />
 
-      <div className={s.horizonalLine}>
-
-      </div>
+      
     </div>
   )
 }

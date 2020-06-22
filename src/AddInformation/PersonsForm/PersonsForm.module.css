@@ -1,7 +1,6 @@
-#form{
+.form{
 	margin: 30px;
-
-
+	margin-top: 20%;
 }
 
 input[type=text]{
@@ -55,7 +54,7 @@ input[type=Email],.description{
 }
 
 .month,.year,.day{
-    
+
 	height: 35px;
 	    width: 20.2%;
 	outline: none;
