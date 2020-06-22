@@ -20,19 +20,19 @@ const PersonsForm = (props) =>{
   return(
     <div className={`${s.form} form`} id="form" >
       <form onSubmit={() => false} id="addForm">
-        <input type="text" placeholder="Name" id="Name"  autoComplete='off'/>
-        
-        <input type="text" placeholder="Surname" id="Surname" autoComplete='off'/>
+        <input type="text" placeholder="Name" id="Name"  autoComplete='off' onInput={ () => document.getElementById('editorForm').reset()}/>
 
-        <input type="email" placeholder="Mobile number or email address" id="Email" autoComplete='off'/>
+        <input type="text" placeholder="Surname" id="Surname" autoComplete='off' onInput={ () => document.getElementById('editorForm').reset()}/>
 
-        <textarea className={s.description} placeholder="Description" id="description" autoComplete='off'/>
+        <input type="email" placeholder="Mobile number or email address" id="Email" autoComplete='off' onInput={ () => document.getElementById('editorForm').reset()}/>
+
+        <textarea className={s.description} placeholder="Description" id="description" autoComplete='off' onInput={ () => document.getElementById('editorForm').reset()}/>
 
 
 
         <div className={s.birthday}>
 			  <select name="birthday_month" className={s.month} title="Month" id="month">
-			
+
           <option value="1" selected="1" >Jan</option>
           <option value="2">Feb</option>
           <option value="3">Mar</option>
@@ -49,7 +49,7 @@ const PersonsForm = (props) =>{
 
 
 			  <select aria-label="Day" name="birthday_day" className={s.day} title="Day" id="day">
-				
+
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -84,7 +84,7 @@ const PersonsForm = (props) =>{
 			  </select>
 
 			  <select aria-label="Year" className={s.year} title="Year" id="year">
-				
+
           <option value="2020">2020</option>
           <option value="2019">2019</option>
           <option value="2018">2018</option>
@@ -212,7 +212,7 @@ const PersonsForm = (props) =>{
 			</div>
 
 
-      <input type="reset" value="Reset" /> 
+      <input type="reset" value="Reset" />
 			<input type="button" className={s.add} value="Add"  id="addButton"  onClick={() =>props.addPerson()}      //;document.getElementById('f').reset()}
        />
 
